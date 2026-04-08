@@ -56,6 +56,13 @@ https://berkeleybop.org/best_practice/
 A lot of this has become stale, and many parts of this will gradually
 be migrated to skills, either in this repo, or in a repo such as [the ai4curation skills repo](https://github.com/ai4curation/curation-skills)
 
+## Other skills and skill marketplaces of relevance
+
+There are many skill repositories out there, these just list the ones core to the group
+
+- https://github.com/caufieldjh/biosketch-skills
+- https://github.com/ai4curation/curation-skills
+
 ## LICENSE and use of these skills
 
 The [LICENSE.txt](LICENSE.txt) is CC-0. Feel free to reuse, adapt. Attributions welcome but not required.
