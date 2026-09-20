@@ -19,6 +19,28 @@ Currently there is only one, for repo best practices:
 
 Everyone should read the skills in this repo and check they are in agreement - PRs always welcome!
 
+### Install with npx skills
+
+With Node.js and npm installed, use the [Skills CLI](https://skills.sh/docs/cli)
+from the project where you want to use the skill:
+
+```bash
+# List available skills without installing
+npx skills add berkeleybop/bbop-skills --list
+
+# Install one skill for Claude Code in the current project
+npx skills add berkeleybop/bbop-skills --skill github-repo-skill -a claude-code
+```
+
+Use `-a codex` to target Codex instead, or omit `-a` to choose agents.
+Installation is project-scoped by default; add `-g` for a user-wide install
+available across projects.
+
+This installs skill files. To install a Claude plugin and any bundled hooks,
+MCP servers, or plugin commands, use the marketplace instructions below.
+
+### Claude Code marketplace
+
 In Claude Code you can install these via the marketplace
 
 ```
